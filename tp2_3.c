@@ -15,7 +15,7 @@ int main(){
     for(i = 0;i<N; i++){
         for(j = 0;j<M; j++){
             *puntero = 1 + rand()%100;
-            printf("%d  ", *puntero);
+            printf("%.2lf  ", (double)*puntero);
             puntero++;
     }
     printf("\n");
