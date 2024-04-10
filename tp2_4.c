@@ -17,11 +17,11 @@ int main(){
     char tipos[5][10] = {"AMD", "Celeron", "Athlon", "Core", "Pentium"};
 
     compu misComputadoras[5] = {
-        {1, 2017, 2, tipos[rand() % 5]},
-        {2, 2020, 5, tipos[rand() % 5]},
-        {3, 2016, 7, tipos[rand() % 5]},
-        {2, 2023, 4, tipos[rand() % 5]},
-        {1, 2022, 8, tipos[rand() % 5]}
+        {rand() % 3 + 1, rand() % 9 + 2015, rand() % 8 + 1, tipos[rand() % 5]},
+        {rand() % 3 + 1, rand() % 9 + 2015, rand() % 8 + 1, tipos[rand() % 5]},
+        {rand() % 3 + 1, rand() % 9 + 2015, rand() % 8 + 1, tipos[rand() % 5]},
+        {rand() % 3 + 1, rand() % 9 + 2015, rand() % 8 + 1, tipos[rand() % 5]},
+        {rand() % 3 + 1, rand() % 9 + 2015, rand() % 8 + 1, tipos[rand() % 5]}
     };
 
     mostrarLista(misComputadoras);
